@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   // Otimizações de performance
-  swcMinify: true,
   experimental: {
     optimizePackageImports: ['@heroicons/react', 'lucide-react'],
     optimizeCss: true,
