@@ -134,7 +134,7 @@ export default async function ProdutoFixaDetalhe({ params }: { params: Promise<{
         description={produto.descricao}
         image={produto.imagem}
         price={produto.preco}
-        url={`https://coberturapolicarbonato.com.br/produtos/cobertura-fixa/${params.slug}`}
+        url={`https://coberturapolicarbonato.com.br/produtos/cobertura-fixa/${slug}`}
       />
       <main className="min-h-screen py-12">
         <div className="container mx-auto px-4 max-w-6xl">

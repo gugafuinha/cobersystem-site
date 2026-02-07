@@ -170,7 +170,7 @@ export default async function ProdutoDetalhe({ params }: { params: Promise<{ slu
         description={produto.descricao}
         image={produto.imagem}
         price={produto.preco}
-        url={`https://coberturapolicarbonato.com.br/produtos/cobertura-retratil/${params.slug}`}
+        url={`https://coberturapolicarbonato.com.br/produtos/cobertura-retratil/${slug}`}
       />
       <main className="min-h-screen py-12">
         <div className="container mx-auto px-4 max-w-6xl">
