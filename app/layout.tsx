@@ -10,6 +10,7 @@ import GoogleTagManager from "@/components/GoogleTagManager";
 import MetaPixel from "@/components/MetaPixel";
 import GoogleAds from "@/components/GoogleAds";
 import ScrollTracker from "@/components/ScrollTracker";
+import PerformanceOptimizer from "@/components/PerformanceOptimizer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -63,6 +64,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        <PerformanceOptimizer />
         <link rel="icon" href="/favicon.ico" />
         {/* Google Search Console Verification - Substituir pelo código real */}
         <meta name="google-site-verification" content="SUBSTITUIR_PELO_CODIGO_DE_VERIFICACAO" />
