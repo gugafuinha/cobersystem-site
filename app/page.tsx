@@ -64,7 +64,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-4">
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <OptimizedImage
-                src="/images/projetos/area-gourmet-varanda-23.jpg"
+                src="/images/projetos/area-gourmet-varanda-23.JPG"
                 alt="Cobertura Retrátil em Área Gourmet e Varanda"
                 width={1200}
                 height={800}
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <OptimizedImage
-                src="/images/projetos/cobertura-abre-fecha-apartamento-24.jpg"
+                src="/images/projetos/cobertura-abre-fecha-apartamento-24.JPG"
                 alt="Cobertura Retrátil que Abre e Fecha em Apartamento"
                 width={1200}
                 height={800}
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <OptimizedImage
-                src="/images/projetos/estrutura-aluminio-projeto-11.jpg"
+                src="/images/projetos/estrutura-aluminio-projeto-11.JPG"
                 alt="Estrutura em Alumínio para Projeto Personalizado"
                 width={1200}
                 height={800}

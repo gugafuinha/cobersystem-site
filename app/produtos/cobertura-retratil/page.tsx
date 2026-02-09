@@ -97,7 +97,7 @@ export default function CoberturaRetratil() {
               ? [
                   '/images/projetos/cobertura-retratil-policarbonato-capa.jpg',
                   '/images/projetos/policarbonato-compacto-2mm-produto.jpg',
-                  '/images/projetos/area-gourmet-varanda-23.jpg',
+                  '/images/projetos/area-gourmet-varanda-23.JPG',
                 ]
               : produto.id === 'policarbonato-alveolar'
               ? [
@@ -107,7 +107,7 @@ export default function CoberturaRetratil() {
                 ]
               : [
                   '/images/projetos/cobertura-retratil-policarbonato-capa.jpg',
-                  '/images/projetos/cobertura-abre-fecha-apartamento-24.jpg',
+                  '/images/projetos/cobertura-abre-fecha-apartamento-24.JPG',
                   '/images/projetos/cobertura-retratil-aluminio.jpg',
                 ];
             
