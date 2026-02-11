@@ -54,6 +54,11 @@ export default function Header() {
               </Link>
             </li>
             <li>
+              <Link href="/faq" className="text-gray-700 hover:text-[#D4AF37] transition">
+                FAQ
+              </Link>
+            </li>
+            <li>
               <Link href="/contato" className="bg-[#D4AF37] text-black px-4 py-2 rounded-lg hover:bg-[#C9A030] transition font-semibold">
                 Orçamento
               </Link>

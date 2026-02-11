@@ -17,6 +17,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Guia',
     palavrasChave: ['cobertura retrátil', 'policarbonato', 'guia completo'],
+    imagem: '/images/projetos/cobertura-retratil-area-gourmet-18.JPG',
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Informações',
     palavrasChave: ['cobertura abre e fecha', 'ventilação', 'controle clima'],
+    imagem: '/images/projetos/area-gourmet-varanda-23.JPG',
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Informações',
     palavrasChave: ['cobertura policarbonato', 'preço', 'tipos', 'instalação'],
+    imagem: '/images/projetos/policarbonato-alveolar-produto.jpg',
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Aplicações',
     palavrasChave: ['cobertura churrasqueira', 'área gourmet', 'proteção'],
+    imagem: '/images/projetos/churrasqueira-pergolado-10.JPG',
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Tecnologia',
     palavrasChave: ['automação', 'Alexa', 'sensor chuva', 'casa inteligente'],
+    imagem: '/images/blog/automacao-alexa-celular.jpg',
   },
   {
     id: 6,
@@ -62,6 +67,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Comparação',
     palavrasChave: ['pergolado', 'cobertura retrátil', 'comparação'],
+    imagem: '/images/blog/pergolado-abre-fecha.jpg',
   },
 ];
 
@@ -84,33 +90,44 @@ export default function Blog() {
         <section className="mb-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {artigos.map((artigo) => (
-              <article 
-                key={artigo.id} 
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition"
+              <Link 
+                key={artigo.id}
+                href={`/blog/${artigo.slug}`}
+                className="group"
               >
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">
-                      {artigo.categoria}
-                    </span>
-                    <span className="text-gray-500 text-sm">
-                      {new Date(artigo.data).toLocaleDateString('pt-BR')}
+                <article 
+                  className="relative rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 h-80"
+                  style={{
+                    backgroundImage: `url(${artigo.imagem})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                  }}
+                >
+                  {/* Overlay escuro com transparência */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/30 group-hover:from-black/95 group-hover:via-black/70 transition-all duration-300"></div>
+                  
+                  {/* Conteúdo */}
+                  <div className="relative h-full flex flex-col justify-end p-6 text-white">
+                    <div className="flex items-center justify-between mb-3">
+                      <span className="bg-[#D4AF37] text-black px-3 py-1 rounded-full text-sm font-semibold">
+                        {artigo.categoria}
+                      </span>
+                      <span className="text-gray-200 text-sm">
+                        {new Date(artigo.data).toLocaleDateString('pt-BR')}
+                      </span>
+                    </div>
+                    <h2 className="text-2xl font-bold mb-2 group-hover:text-[#D4AF37] transition">
+                      {artigo.titulo}
+                    </h2>
+                    <p className="text-gray-200 mb-4 line-clamp-2">
+                      {artigo.descricao}
+                    </p>
+                    <span className="text-[#D4AF37] font-semibold group-hover:underline">
+                      Ler mais →
                     </span>
                   </div>
-                  <h2 className="text-2xl font-bold text-gray-800 mb-3">
-                    {artigo.titulo}
-                  </h2>
-                  <p className="text-gray-600 mb-4 line-clamp-3">
-                    {artigo.descricao}
-                  </p>
-                  <Link 
-                    href={`/blog/${artigo.slug}`}
-                    className="text-blue-600 font-semibold hover:underline inline-flex items-center"
-                  >
-                    Ler mais →
-                  </Link>
-                </div>
-              </article>
+                </article>
+              </Link>
             ))}
           </div>
         </section>
