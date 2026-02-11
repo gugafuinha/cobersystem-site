@@ -49,12 +49,12 @@ export default function Produtos() {
             </div>
           </Link>
 
-          <Link href="/produtos/cobertura-fixa" className="group">
+          <Link href="/produtos/cobertura-policarbonato" className="group">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
               <div className="bg-gradient-to-br from-gray-700 to-gray-900 h-64 flex items-center justify-center">
                 <div className="text-white text-center">
                   <div className="text-6xl mb-4">🏠</div>
-                  <h2 className="text-3xl font-bold">Cobertura Fixa</h2>
+                  <h2 className="text-3xl font-bold">Cobertura em Policarbonato</h2>
                 </div>
               </div>
               <div className="p-8">
@@ -68,7 +68,60 @@ export default function Produtos() {
                   <li>✓ Proteção Permanente</li>
                 </ul>
                 <span className="text-blue-600 font-semibold group-hover:underline">
-                  Ver Produtos Fixos →
+                  Ver Coberturas em Policarbonato →
+                </span>
+              </div>
+            </div>
+          </Link>
+        </section>
+
+        {/* Novos Produtos */}
+        <section className="grid md:grid-cols-2 gap-8 mb-16 max-w-5xl mx-auto">
+          <Link href="/produtos/cobertura-termoacustica" className="group">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+              <div className="bg-gradient-to-br from-orange-600 to-orange-800 h-64 flex items-center justify-center">
+                <div className="text-white text-center">
+                  <div className="text-6xl mb-4">🔇</div>
+                  <h2 className="text-3xl font-bold">Cobertura Termoacústica</h2>
+                </div>
+              </div>
+              <div className="p-8">
+                <p className="text-gray-600 mb-4">
+                  Cobertura sanduíche com isolamento térmico e acústico superior. 
+                  Ideal para conforto total em ambientes residenciais e comerciais.
+                </p>
+                <ul className="space-y-2 text-gray-700 mb-6">
+                  <li>✓ Isolamento Térmico</li>
+                  <li>✓ Isolamento Acústico</li>
+                  <li>✓ Sistema Sanduíche</li>
+                </ul>
+                <span className="text-blue-600 font-semibold group-hover:underline">
+                  Ver Coberturas Termoacústicas →
+                </span>
+              </div>
+            </div>
+          </Link>
+
+          <Link href="/produtos/veneziana-policarbonato" className="group">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+              <div className="bg-gradient-to-br from-green-600 to-green-800 h-64 flex items-center justify-center">
+                <div className="text-white text-center">
+                  <div className="text-6xl mb-4">🌬️</div>
+                  <h2 className="text-3xl font-bold">Veneziana em Policarbonato</h2>
+                </div>
+              </div>
+              <div className="p-8">
+                <p className="text-gray-600 mb-4">
+                  Fechamento lateral ventilado para galpões, quadras e áreas externas. 
+                  Permite ventilação controlada mantendo proteção.
+                </p>
+                <ul className="space-y-2 text-gray-700 mb-6">
+                  <li>✓ Ventilação Controlada</li>
+                  <li>✓ Fechamento Lateral</li>
+                  <li>✓ Ideal para Galpões</li>
+                </ul>
+                <span className="text-blue-600 font-semibold group-hover:underline">
+                  Ver Venezianas em Policarbonato →
                 </span>
               </div>
             </div>

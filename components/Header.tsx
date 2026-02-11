@@ -28,14 +28,30 @@ export default function Header() {
               <Link href="/produtos" className="text-gray-700 hover:text-[#D4AF37] transition">
                 Produtos
               </Link>
-              <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                <Link href="/produtos/cobertura-retratil" className="block px-4 py-3 text-gray-700 hover:bg-[#D4AF37]/10 hover:text-[#D4AF37] rounded-t-lg">
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <Link href="/produtos/cobertura-retratil" className="block px-4 py-3 text-gray-700 hover:bg-[#D4AF37]/10 hover:text-[#D4AF37]">
                   Cobertura Retrátil
                 </Link>
-                <Link href="/produtos/cobertura-fixa" className="block px-4 py-3 text-gray-700 hover:bg-[#D4AF37]/10 hover:text-[#D4AF37] rounded-b-lg">
-                  Cobertura Fixa
+                <Link href="/produtos/cobertura-policarbonato" className="block px-4 py-3 text-gray-700 hover:bg-[#D4AF37]/10 hover:text-[#D4AF37]">
+                  Cobertura em Policarbonato
+                </Link>
+                <Link href="/produtos/cobertura-termoacustica" className="block px-4 py-3 text-gray-700 hover:bg-[#D4AF37]/10 hover:text-[#D4AF37]">
+                  Cobertura Termoacústica
+                </Link>
+                <Link href="/produtos/veneziana-policarbonato" className="block px-4 py-3 text-gray-700 hover:bg-[#D4AF37]/10 hover:text-[#D4AF37]">
+                  Veneziana em Policarbonato
                 </Link>
               </div>
+            </li>
+            <li>
+              <Link href="/cases-sucesso" className="text-gray-700 hover:text-[#D4AF37] transition">
+                Cases
+              </Link>
+            </li>
+            <li>
+              <Link href="/projetos-3d" className="text-gray-700 hover:text-[#D4AF37] transition">
+                Projetos 3D
+              </Link>
             </li>
             <li>
               <Link href="/blog" className="text-gray-700 hover:text-[#D4AF37] transition">
