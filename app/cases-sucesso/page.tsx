@@ -12,102 +12,6 @@ export const metadata: Metadata = {
   },
 };
 
-// Cases reais com fotos dos projetos
-const casesDeSucesso = [
-  {
-    id: 1,
-    titulo: 'Transformação de Área Gourmet - Zona Leste SP',
-    cliente: 'Residência - Família Silva',
-    local: 'São Paulo - Zona Leste',
-    tipo: 'Cobertura Abre e Fecha - Policarbonato Alveolar',
-    descricao: 'Cliente buscava solução para aproveitar a área gourmet durante todo o ano. Antes, o espaço ficava inutilizado nos dias de chuva e com sol forte. Com a cobertura retrátil, o ambiente se tornou versátil e confortável.',
-    desafio: 'Espaço pequeno (3x4m) com necessidade de ventilação natural.',
-    solucao: 'Cobertura abre e fecha em policarbonato alveolar com automação via controle remoto.',
-    resultados: [
-      'Área aproveitada 100% do tempo',
-      'Redução de 8°C na temperatura nos dias quentes',
-      'Ventilação natural preservada',
-      'Proteção total contra chuva',
-    ],
-    depoimento: 'Revolucionou nossa casa! Agora fazemos churrasco até quando chove. A cobertura fecha automaticamente e continuamos aproveitando. Melhor investimento que fizemos!',
-    imagemAntes: '/images/cases-antes-depois/case-01-antes.jpg',
-    imagemDepois: '/images/cases-antes-depois/case-01-depois.jpg',
-    imagensExtras: [
-      '/images/cases-antes-depois/case-01-detalhe-1.jpg',
-      '/images/cases-antes-depois/case-01-detalhe-2.jpg',
-    ],
-  },
-  {
-    id: 2,
-    titulo: 'Cobertura Automatizada com Sensor de Chuva - Apartamento Alto Padrão',
-    cliente: 'Apartamento - Sr. Roberto',
-    local: 'São Paulo - Zona Sul',
-    tipo: 'Cobertura Abre e Fecha - Alumínio + Automação Alexa',
-    descricao: 'Cliente de apartamento de alto padrão queria tecnologia de ponta. Solicitou integração total com sistema de automação residencial existente.',
-    desafio: 'Integração com Alexa e sistema de automação residencial.',
-    solucao: 'Cobertura em alumínio com automação via Alexa, sensor de chuva e app mobile.',
-    resultados: [
-      'Controle por comando de voz',
-      'Fechamento automático ao detectar chuva',
-      'Integração perfeita com smart home',
-      'Design moderno e minimalista',
-    ],
-    depoimento: 'A cobertura se integrou perfeitamente ao meu sistema de automação. Falo "Alexa, feche a cobertura" e pronto. Quando viajo, posso controlar pelo app. Tecnologia e conforto.',
-    imagemAntes: '/images/cases-antes-depois/case-02-antes.jpg',
-    imagemDepois: '/images/cases-antes-depois/case-02-depois.jpg',
-    imagensExtras: [
-      '/images/cases-antes-depois/case-02-detalhe-1.jpg',
-      '/images/cases-antes-depois/case-02-detalhe-2.jpg',
-    ],
-  },
-  {
-    id: 3,
-    titulo: 'Cobertura Fixa para Garagem - Proteção Total',
-    cliente: 'Residência - Família Costa',
-    local: 'São Paulo - Zona Norte',
-    tipo: 'Cobertura Fixa em Policarbonato Compacto',
-    descricao: 'Cliente precisava proteger 3 carros da chuva e sol. Optou por cobertura fixa em policarbonato compacto transparente para manter luminosidade.',
-    desafio: 'Vão grande (6x8m) com necessidade de estrutura reforçada.',
-    solucao: 'Cobertura fixa em policarbonato compacto 6mm com estrutura de alumínio reforçada.',
-    resultados: [
-      'Proteção total dos veículos',
-      'Luminosidade natural mantida',
-      'Estrutura robusta e segura',
-      'Sem manutenção há 3 anos',
-    ],
-    depoimento: 'Meus carros estão sempre protegidos e o ambiente continua claro. O policarbonato não amarelou nada em 3 anos. Qualidade excepcional!',
-    imagemAntes: '/images/cases-antes-depois/case-03-antes.jpg',
-    imagemDepois: '/images/cases-antes-depois/case-03-depois.jpg',
-    imagensExtras: [
-      '/images/cases-antes-depois/case-03-antes.jpg',
-      '/images/cases-antes-depois/case-03-depois.jpg',
-    ],
-  },
-  {
-    id: 4,
-    titulo: 'Veneziana em Policarbonato - Fechamento Lateral de Quadra',
-    cliente: 'Condomínio Residencial',
-    local: 'São Paulo - ABC',
-    tipo: 'Veneziana em Policarbonato + Cobertura Fixa',
-    descricao: 'Condomínio necessitava proteger quadra poliesportiva mantendo ventilação natural. Optou por veneziana em policarbonato para fechamento lateral.',
-    desafio: 'Ventilação natural sem comprometer proteção contra chuva.',
-    solucao: 'Veneziana em policarbonato compacto + cobertura fixa alveolar.',
-    resultados: [
-      'Ventilação natural preservada',
-      'Proteção total contra chuva lateral',
-      'Luminosidade natural',
-      'Valorização do condomínio',
-    ],
-    depoimento: 'A quadra agora é aproveitada o ano todo. A veneziana permite que o vento circule, mas a chuva não entra. Moradores adoraram!',
-    imagemAntes: '/images/cases-antes-depois/case-04-antes.jpg',
-    imagemDepois: '/images/cases-antes-depois/case-04-depois.jpg',
-    imagensExtras: [
-      '/images/cases-antes-depois/case-04-antes.jpg',
-      '/images/cases-antes-depois/case-04-depois.jpg',
-    ],
-  },
-];
-
 export default function CasesDeSucesso() {
   return (
     <main className="min-h-screen py-12">
@@ -143,111 +47,6 @@ export default function CasesDeSucesso() {
           </div>
         </section>
 
-        {/* Cases */}
-        <section className="space-y-16 mb-16">
-          {casesDeSucesso.map((caso) => (
-            <article key={caso.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
-              {/* Antes e Depois */}
-              <div className="grid md:grid-cols-2 gap-0">
-                <div className="relative">
-                  <div className="absolute top-4 left-4 bg-red-600 text-white px-4 py-2 rounded-lg font-bold z-10">
-                    ANTES
-                  </div>
-                  <div className="h-96">
-                    <OptimizedImage
-                      src={caso.imagemAntes}
-                      alt={`Antes - ${caso.titulo} - Cobertura em Policarbonato Cobersystem`}
-                      width={1200}
-                      height={800}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="relative">
-                  <div className="absolute top-4 left-4 bg-green-600 text-white px-4 py-2 rounded-lg font-bold z-10">
-                    DEPOIS
-                  </div>
-                  <div className="h-96">
-                    <OptimizedImage
-                      src={caso.imagemDepois}
-                      alt={`Depois - ${caso.titulo} - Cobertura em Policarbonato Cobersystem`}
-                      width={1200}
-                      height={800}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              {/* Conteúdo */}
-              <div className="p-8">
-                <div className="mb-6">
-                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold">
-                    {caso.tipo}
-                  </span>
-                </div>
-                
-                <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                  {caso.titulo}
-                </h2>
-                
-                <div className="grid md:grid-cols-2 gap-4 mb-6 text-gray-700">
-                  <div>
-                    <span className="font-semibold">Cliente:</span> {caso.cliente}
-                  </div>
-                  <div>
-                    <span className="font-semibold">Local:</span> {caso.local}
-                  </div>
-                </div>
-
-                <p className="text-lg text-gray-600 mb-6">
-                  {caso.descricao}
-                </p>
-
-                <div className="grid md:grid-cols-2 gap-6 mb-6">
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                      Desafio
-                    </h3>
-                    <p className="text-gray-700">{caso.desafio}</p>
-                  </div>
-                  <div className="bg-blue-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                      Solução
-                    </h3>
-                    <p className="text-gray-700">{caso.solucao}</p>
-                  </div>
-                </div>
-
-                <div className="mb-6">
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                    Resultados
-                  </h3>
-                  <ul className="grid md:grid-cols-2 gap-2">
-                    {caso.resultados.map((resultado, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        <span className="text-gray-700">{resultado}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* Depoimento */}
-                <div className="bg-gray-50 border-l-4 border-blue-600 p-6 rounded-lg">
-                  <div className="flex items-start">
-                    <span className="text-5xl text-blue-600 mr-4">"</span>
-                    <div>
-                      <p className="text-gray-700 italic mb-2">{caso.depoimento}</p>
-                      <p className="text-gray-600 font-semibold">— {caso.cliente}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          ))}
-        </section>
-
         {/* Galeria Completa de Projetos */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">
@@ -258,7 +57,7 @@ export default function CasesDeSucesso() {
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {[1, 4, 5, 7, 10, 12, 15, 17, 18, 19, 23, 27, 28, 29, 31, 32, 34, 37, 38, 39, 40, 41, 42, 43, 45, 47, 48].map((num) => (
+            {[1, 4, 5, 7, 10, 12, 15, 17, 18, 19, 23, 27, 28, 29, 31, 32, 37, 38, 39, 40, 41, 42, 43, 45, 47, 48].map((num) => (
               <div key={num} className="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
                 <OptimizedImage
                   src={`/images/cases-antes-depois/${num}.jpg`}
@@ -277,8 +76,23 @@ export default function CasesDeSucesso() {
             ))}
             <div className="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
               <OptimizedImage
+                src="/images/cases-antes-depois/34.jpg"
+                alt="Projeto de Cobertura em Policarbonato #34 - Cobersystem"
+                width={600}
+                height={400}
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <p className="font-semibold">Projeto #34</p>
+                  <p className="text-sm">Cobertura em Policarbonato</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
+              <OptimizedImage
                 src="/images/cases-antes-depois/33img_6499.jpg"
-                alt="Projeto de Cobertura em Policarbonato - Cobersystem"
+                alt="Projeto Especial de Cobertura em Policarbonato - Cobersystem"
                 width={600}
                 height={400}
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
