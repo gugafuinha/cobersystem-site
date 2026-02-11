@@ -30,10 +30,10 @@ const projetos3D = [
       'Acabamento premium',
     ],
     imagens: [
-      '/images/Cobertura Abre e Fecha Alveolar/IMG_3659.jpg',
-      '/images/Cobertura Abre e Fecha Alveolar/IMG_4760.PNG.jpg',
-      '/images/Cobertura Abre e Fecha Alveolar/IMG_6398.jpg',
-      '/images/Cobertura Abre e Fecha Alveolar/IMG_7879.jpg',
+      '/images/projetos/abre-fecha-alveolar-01.jpg',
+      '/images/projetos/abre-fecha-alveolar-02.jpg',
+      '/images/projetos/abre-fecha-alveolar-03.jpg',
+      '/images/projetos/abre-fecha-alveolar-04.jpg',
     ],
   },
   {
@@ -52,10 +52,10 @@ const projetos3D = [
       'Calhas embutidas',
     ],
     imagens: [
-      '/images/Fixa Alveolar/Fixa Alveolar.jpg',
-      '/images/Fixa Alveolar/Fixa Alveolar1.jpg',
-      '/images/Fixa Alveolar/IMG_0397.jpg',
-      '/images/Fixa Alveolar/IMG_0398.jpg',
+      '/images/projetos/fixa-01.jpg',
+      '/images/projetos/fixa-02.jpg',
+      '/images/projetos/fixa-03.jpg',
+      '/images/projetos/fixa-04.jpg',
     ],
   },
   {
@@ -74,10 +74,10 @@ const projetos3D = [
       'Design minimalista',
     ],
     imagens: [
-      '/images/Cobertura Abre e Fecha com telhas intercaladas/IMG_3422.jpg',
-      '/images/Cobertura Abre e Fecha com telhas intercaladas/IMG_4741.PNG.jpg',
-      '/images/Cobertura Abre e Fecha com telhas intercaladas/IMG_6399.jpg',
-      '/images/Cobertura Abre e Fecha com telhas intercaladas/IMG_7880.jpg',
+      '/images/projetos/telhas-intercaladas-01.jpg',
+      '/images/projetos/telhas-intercaladas-01.jpg',
+      '/images/projetos/telhas-intercaladas-01.jpg',
+      '/images/projetos/telhas-intercaladas-01.jpg',
     ],
   },
   {
@@ -96,10 +96,10 @@ const projetos3D = [
       'Economia de energia',
     ],
     imagens: [
-      '/images/Cobertura Termoacustica ou Cobertura Sanduíche/25c8b0a1-bfcf-4d5f-93fd-7946b9b925c2.jpg',
-      '/images/Cobertura Termoacustica ou Cobertura Sanduíche/4926d2a1-7cc6-4848-b3b9-8f92ba1ee4ed.jpg',
-      '/images/Cobertura Termoacustica ou Cobertura Sanduíche/5308ff48-2ce2-4308-9f3c-d2bc6566b8cf.jpg',
-      '/images/Cobertura Termoacustica ou Cobertura Sanduíche/840d8ed0-052b-4289-9a89-cc25a369fcfb.jpg',
+      '/images/projetos/termoacustica-01.jpg',
+      '/images/projetos/termoacustica-02.jpg',
+      '/images/projetos/termoacustica-03.jpg',
+      '/images/projetos/termoacustica-04.jpg',
     ],
   },
   {
@@ -118,10 +118,10 @@ const projetos3D = [
       'Durabilidade superior',
     ],
     imagens: [
-      '/images/Veneziana em Policarbonato/IMG_3421.jpg',
-      '/images/Veneziana em Policarbonato/IMG_4740.PNG.jpg',
-      '/images/Veneziana em Policarbonato/IMG_4742.PNG.jpg',
-      '/images/Veneziana em Policarbonato/IMG_4863.jpg',
+      '/images/projetos/veneziana-01.jpg',
+      '/images/projetos/veneziana-01.jpg',
+      '/images/projetos/veneziana-01.jpg',
+      '/images/projetos/veneziana-01.jpg',
     ],
   },
   {
@@ -140,10 +140,10 @@ const projetos3D = [
       'Integração com paisagismo',
     ],
     imagens: [
-      '/images/Cobertura Abre e Fecha Telhas Telhas em Alumínio/IMG_3423.jpg',
-      '/images/Cobertura Abre e Fecha Telhas Telhas em Alumínio/IMG_4746.PNG.jpg',
-      '/images/Cobertura Abre e Fecha Telhas Telhas em Alumínio/IMG_6400.jpg',
-      '/images/Cobertura Abre e Fecha Telhas Telhas em Alumínio/IMG_7881.jpg',
+      '/images/projetos/telhas-aluminio-01.jpg',
+      '/images/projetos/telhas-aluminio-01.jpg',
+      '/images/projetos/telhas-aluminio-01.jpg',
+      '/images/projetos/telhas-aluminio-01.jpg',
     ],
   },
 ];
