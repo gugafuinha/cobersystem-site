@@ -80,8 +80,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/produtos/cobertura-fixa" className="text-gray-400 hover:text-white transition">
-                  Cobertura Fixa
+                <Link href="/produtos/cobertura-policarbonato" className="text-gray-400 hover:text-white transition">
+                  Cobertura Policarbonato
                 </Link>
               </li>
               <li>
