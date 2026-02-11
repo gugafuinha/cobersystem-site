@@ -49,11 +49,6 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/projetos-3d" className="text-gray-700 hover:text-[#D4AF37] transition">
-                Projetos 3D
-              </Link>
-            </li>
-            <li>
               <Link href="/blog" className="text-gray-700 hover:text-[#D4AF37] transition">
                 Blog
               </Link>

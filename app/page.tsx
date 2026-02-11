@@ -199,13 +199,13 @@ export default function Home() {
               </div>
             </Link>
             
-            <Link href="/produtos/cobertura-retratil/policarbonato-alveolar" className="group">
+            <Link href="/produtos/cobertura-policarbonato" className="group">
               <div className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition">
                 <div className="relative h-48">
                   <OptimizedImage
                     src="/images/projetos/policarbonato-alveolar-produto.jpg"
-                    alt="Cobertura Retrátil em Policarbonato Alveolar - Excelente Isolamento Térmico e Acústico"
-                    title="Cobertura Retrátil Policarbonato Alveolar - Isolamento Térmico e Acústico - Cobersystem"
+                    alt="Cobertura em Policarbonato Fixa - Alveolar e Compacto para Garagens e Áreas"
+                    title="Cobertura Policarbonato Fixa - Alta Resistência - Cobersystem"
                     width={1200}
                     height={800}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -214,11 +214,11 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-semibold mb-3 text-gray-800 group-hover:text-[#D4AF37] transition">
-                    Cobertura Retrátil
+                    Cobertura Policarbonato
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    Policarbonato Alveolar - Excelente isolamento térmico e acústico. 
-                    Máximo conforto.
+                    Cobertura fixa em policarbonato alveolar ou compacto. 
+                    Ideal para garagens, áreas e proteção permanente.
                   </p>
                   <span className="text-[#D4AF37] font-semibold group-hover:underline">
                     Ver detalhes →

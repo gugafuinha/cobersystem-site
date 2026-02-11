@@ -30,11 +30,11 @@ const casesDeSucesso = [
       'Proteção total contra chuva',
     ],
     depoimento: 'Revolucionou nossa casa! Agora fazemos churrasco até quando chove. A cobertura fecha automaticamente e continuamos aproveitando. Melhor investimento que fizemos!',
-    imagemAntes: '/images/cases-antes-depois/cobertura-area-gourmet-zona-leste-antes.jpg',
-    imagemDepois: '/images/cases-antes-depois/cobertura-area-gourmet-zona-leste-depois.jpg',
+    imagemAntes: '/images/cases-antes-depois/case-01-antes.jpg',
+    imagemDepois: '/images/cases-antes-depois/case-01-depois.jpg',
     imagensExtras: [
-      '/images/cases-antes-depois/12.jpg',
-      '/images/cases-antes-depois/13.jpg',
+      '/images/cases-antes-depois/case-01-detalhe-1.jpg',
+      '/images/cases-antes-depois/case-01-detalhe-2.jpg',
     ],
   },
   {
@@ -53,11 +53,11 @@ const casesDeSucesso = [
       'Design moderno e minimalista',
     ],
     depoimento: 'A cobertura se integrou perfeitamente ao meu sistema de automação. Falo "Alexa, feche a cobertura" e pronto. Quando viajo, posso controlar pelo app. Tecnologia e conforto.',
-    imagemAntes: '/images/cases-antes-depois/cobertura-automatizada-apartamento-antes.jpg',
-    imagemDepois: '/images/cases-antes-depois/cobertura-automatizada-apartamento-depois.jpg',
+    imagemAntes: '/images/cases-antes-depois/case-02-antes.jpg',
+    imagemDepois: '/images/cases-antes-depois/case-02-depois.jpg',
     imagensExtras: [
-      '/images/cases-antes-depois/17.jpg',
-      '/images/cases-antes-depois/18.PNG.jpg',
+      '/images/cases-antes-depois/case-02-detalhe-1.jpg',
+      '/images/cases-antes-depois/case-02-detalhe-2.jpg',
     ],
   },
   {
@@ -76,11 +76,11 @@ const casesDeSucesso = [
       'Sem manutenção há 3 anos',
     ],
     depoimento: 'Meus carros estão sempre protegidos e o ambiente continua claro. O policarbonato não amarelou nada em 3 anos. Qualidade excepcional!',
-    imagemAntes: '/images/cases-antes-depois/cobertura-fixa-garagem-antes.jpg',
-    imagemDepois: '/images/cases-antes-depois/cobertura-fixa-garagem-depois.jpg',
+    imagemAntes: '/images/cases-antes-depois/case-03-antes.jpg',
+    imagemDepois: '/images/cases-antes-depois/case-03-depois.jpg',
     imagensExtras: [
-      '/images/cases-antes-depois/20.jpg',
-      '/images/cases-antes-depois/21.jpg',
+      '/images/cases-antes-depois/case-03-antes.jpg',
+      '/images/cases-antes-depois/case-03-depois.jpg',
     ],
   },
   {
@@ -99,11 +99,11 @@ const casesDeSucesso = [
       'Valorização do condomínio',
     ],
     depoimento: 'A quadra agora é aproveitada o ano todo. A veneziana permite que o vento circule, mas a chuva não entra. Moradores adoraram!',
-    imagemAntes: '/images/cases-antes-depois/veneziana-policarbonato-quadra-antes.jpg',
-    imagemDepois: '/images/cases-antes-depois/veneziana-policarbonato-quadra-depois.jpg',
+    imagemAntes: '/images/cases-antes-depois/case-04-antes.jpg',
+    imagemDepois: '/images/cases-antes-depois/case-04-depois.jpg',
     imagensExtras: [
-      '/images/cases-antes-depois/24.jpg',
-      '/images/cases-antes-depois/25.jpg',
+      '/images/cases-antes-depois/case-04-antes.jpg',
+      '/images/cases-antes-depois/case-04-depois.jpg',
     ],
   },
 ];
