@@ -160,6 +160,26 @@ export default function ContactForm() {
         ></textarea>
       </div>
       
+      <div>
+        <label htmlFor="fotos" className="block text-gray-700 font-semibold mb-2">
+          Fotos do Local (opcional)
+        </label>
+        <p className="text-sm text-gray-600 mb-3">
+          📸 Se tiver fotos do local, isso nos ajuda a fazer um orçamento prévio mais preciso!
+        </p>
+        <input
+          type="file"
+          id="fotos"
+          name="fotos"
+          multiple
+          accept="image/*"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D4AF37] focus:border-transparent file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-[#D4AF37] file:text-black hover:file:bg-[#C9A030] file:cursor-pointer"
+        />
+        <p className="text-xs text-gray-500 mt-2">
+          Você pode enviar várias fotos. Formatos aceitos: JPG, PNG, HEIC
+        </p>
+      </div>
+      
       <button
         type="submit"
         disabled={isSubmitting}

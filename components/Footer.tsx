@@ -100,6 +100,12 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contato</h4>
             <div className="space-y-3 text-gray-400">
               <p>
+                <strong className="text-white">Endereço:</strong><br />
+                Rua Frei Diogo das Chagas, 160<br />
+                Jardim Angela - Zona Leste<br />
+                CEP: 03985-060 - São Paulo/SP
+              </p>
+              <p>
                 <strong className="text-white">E-mail:</strong><br />
                 <a href="mailto:vendas@cobersystem.com.br" className="hover:text-[#D4AF37] transition">
                   vendas@cobersystem.com.br
@@ -126,9 +132,24 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Cobersystem – Soluções em Coberturas. Todos os direitos reservados.</p>
-          <p className="mt-2 text-sm">CNPJ: 61.813.532/0001-32</p>
+        <div className="border-t border-gray-800 mt-8 pt-8">
+          {/* Selo Primeira Empresa */}
+          <div className="flex justify-center mb-6">
+            <div className="inline-flex items-center bg-gradient-to-r from-[#D4AF37] to-[#C9A030] text-black px-8 py-4 rounded-lg shadow-xl">
+              <svg className="w-8 h-8 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+              </svg>
+              <div className="text-left">
+                <p className="font-bold text-lg leading-tight">Primeira Empresa a Desenvolver</p>
+                <p className="font-bold text-lg leading-tight">Coberturas Inteligentes do Brasil</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="text-center text-gray-400">
+            <p>&copy; 2024 Cobersystem – Soluções em Coberturas. Todos os direitos reservados.</p>
+            <p className="mt-2 text-sm">CNPJ: 61.813.532/0001-32</p>
+          </div>
         </div>
       </div>
     </footer>
