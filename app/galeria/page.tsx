@@ -16,42 +16,42 @@ const projetos = [
   {
     categoria: 'Área Gourmet',
     imagens: [
-      '/images/projetos/cobertura-retratil-area-gourmet-18.JPG',
-      '/images/projetos/apartamento-area-gourmet-19.JPG',
+      '/images/blog/cobertura-retratil-area-gourmet.jpg',
+      '/images/blog/churrasqueira.jpg',
     ],
   },
   {
     categoria: 'Churrasqueira',
     imagens: [
-      '/images/projetos/cobertura-retratil-churrasqueira-26.JPG',
+      '/images/blog/churrasqueira.jpg',
     ],
   },
   {
     categoria: 'Varanda',
     imagens: [
-      '/images/projetos/varanda-cobertura-abre-fecha-7.JPG',
-      '/images/projetos/policarbonato-compacto-varanda-3.JPG',
+      '/images/blog/cobertura-abre-fecha.jpg',
+      '/images/blog/cobertura-policarbonato-tipos.jpg',
     ],
   },
   {
     categoria: 'Policarbonato Compacto',
     imagens: [
-      '/images/projetos/policarbonato-compacto-cobertura-retratil-8.JPG',
-      '/images/projetos/cobertura-abre-fecha-policarbonato-compacto-48.JPG',
+      '/images/blog/cobertura-retratil-area-gourmet.jpg',
+      '/images/blog/cobertura-abre-fecha.jpg',
     ],
   },
   {
     categoria: 'Policarbonato Alveolar',
     imagens: [
-      '/images/projetos/policarbonato-alveolar-cobertura-retratil-14.JPG',
-      '/images/projetos/policarbonato-alveolar-instalacao-30.JPG',
-      '/images/projetos/instalacao-policarbonato-alveolar-13.JPG',
+      '/images/projetos/fixa-01.jpg',
+      '/images/projetos/fixa-02.jpg',
+      '/images/projetos/fixa-03.jpg',
     ],
   },
   {
     categoria: 'Estrutura de Alumínio',
     imagens: [
-      '/images/projetos/estrutura-aluminio-policarbonato-compacto-34.JPG',
+      '/images/projetos/abre-fecha-alveolar-01.jpg',
     ],
   },
 ];

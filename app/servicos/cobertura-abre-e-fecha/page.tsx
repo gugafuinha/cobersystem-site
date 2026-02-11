@@ -25,8 +25,8 @@ const productSchema = {
   name: 'Cobertura Abre e Fecha Automatizada',
   description: 'Cobertura retrátil em policarbonato com sistema abre e fecha automatizado via Alexa e sensor de chuva. Abertura de 0 a 90 graus.',
   image: [
-    'https://coberturapolicarbonato.com.br/images/projetos/cobertura-retratil-area-gourmet-18.JPG',
-    'https://coberturapolicarbonato.com.br/images/projetos/cobertura-abre-fecha-policarbonato-compacto-48.JPG',
+    'https://coberturapolicarbonato.com.br/images/blog/cobertura-retratil-area-gourmet.jpg',
+    'https://coberturapolicarbonato.com.br/images/blog/cobertura-abre-fecha.jpg',
   ],
   brand: {
     '@type': 'Brand',
@@ -223,7 +223,7 @@ export default function CoberturaAbreEFecha() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="relative h-64 rounded-lg overflow-hidden">
                 <OptimizedImage
-                  src="/images/projetos/cobertura-retratil-area-gourmet-18.JPG"
+                  src="/images/blog/cobertura-retratil-area-gourmet.jpg"
                   alt="Cobertura abre e fecha em área gourmet São Paulo modelo alumínio"
                   width={400}
                   height={300}
@@ -232,7 +232,7 @@ export default function CoberturaAbreEFecha() {
               </div>
               <div className="relative h-64 rounded-lg overflow-hidden">
                 <OptimizedImage
-                  src="/images/projetos/cobertura-abre-fecha-policarbonato-compacto-48.JPG"
+                  src="/images/blog/cobertura-abre-fecha.jpg"
                   alt="Cobertura retrátil abre e fecha policarbonato compacto SP"
                   width={400}
                   height={300}
@@ -241,7 +241,7 @@ export default function CoberturaAbreEFecha() {
               </div>
               <div className="relative h-64 rounded-lg overflow-hidden">
                 <OptimizedImage
-                  src="/images/projetos/cobertura-retratil-churrasqueira-26.JPG"
+                  src="/images/blog/churrasqueira.jpg"
                   alt="Cobertura abre e fecha churrasqueira automatizada Alexa"
                   width={400}
                   height={300}

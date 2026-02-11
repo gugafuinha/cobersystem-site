@@ -18,7 +18,7 @@ const productSchema = {
   '@type': 'Product',
   name: 'Cobertura para Corredor Lateral',
   description: 'Cobertura em policarbonato para corredor lateral, protegendo passagem lateral da casa.',
-  image: ['https://coberturapolicarbonato.com.br/images/projetos/cobertura-retratil-area-gourmet-18.JPG'],
+  image: ['https://coberturapolicarbonato.com.br/images/blog/cobertura-retratil-area-gourmet.jpg'],
   brand: { '@type': 'Brand', name: 'Cobersystem' },
   offers: {
     '@type': 'Offer',

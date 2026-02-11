@@ -19,7 +19,7 @@ const productSchema = {
   '@type': 'Product',
   name: 'Cobertura para Área Gourmet',
   description: 'Cobertura retrátil em policarbonato para área gourmet com automação via Alexa e sensor de chuva.',
-  image: ['https://coberturapolicarbonato.com.br/images/projetos/cobertura-retratil-area-gourmet-18.JPG'],
+  image: ['https://coberturapolicarbonato.com.br/images/blog/cobertura-retratil-area-gourmet.jpg'],
   brand: { '@type': 'Brand', name: 'Cobersystem' },
   offers: {
     '@type': 'Offer',
@@ -128,9 +128,9 @@ export default function CoberturaAreaGourmet() {
           <section className="mb-12 bg-white rounded-lg p-8 shadow-sm">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Fotos de Projetos</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <OptimizedImage src="/images/projetos/cobertura-retratil-area-gourmet-18.JPG" alt="Cobertura retrátil área gourmet São Paulo" width={400} height={300} className="rounded-lg" />
-              <OptimizedImage src="/images/projetos/cobertura-retratil-churrasqueira-26.JPG" alt="Cobertura churrasqueira automatizada" width={400} height={300} className="rounded-lg" />
-              <OptimizedImage src="/images/projetos/apartamento-area-gourmet-19.JPG" alt="Área gourmet apartamento cobertura" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/blog/cobertura-retratil-area-gourmet.jpg" alt="Cobertura retrátil área gourmet São Paulo" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/blog/churrasqueira.jpg" alt="Cobertura churrasqueira automatizada" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/blog/churrasqueira.jpg" alt="Área gourmet apartamento cobertura" width={400} height={300} className="rounded-lg" />
             </div>
           </section>
 

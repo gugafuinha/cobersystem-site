@@ -53,7 +53,7 @@ const produtosRetratil = [
       'Pergolado moderno',
       'Área de lazer',
     ],
-    imagem: '/images/projetos/cobertura-abre-fecha-apartamento-24.JPG',
+    imagem: '/images/blog/cobertura-abre-fecha.jpg',
   },
   {
     id: 'policarbonato-alveolar',
@@ -74,7 +74,7 @@ const produtosRetratil = [
       'Espaço de convivência',
       'Área externa coberta',
     ],
-    imagem: '/images/projetos/area-gourmet-varanda-23.JPG',
+    imagem: '/images/blog/cobertura-abre-fecha.jpg',
   },
 ];
 
@@ -101,17 +101,17 @@ export default function CoberturaRetratil() {
               ? [
                   '/images/projetos/cobertura-retratil-policarbonato-capa.jpg',
                   '/images/projetos/policarbonato-compacto-2mm-produto.jpg',
-                  '/images/projetos/area-gourmet-varanda-23.JPG',
+                  '/images/blog/cobertura-abre-fecha.jpg',
                 ]
               : produto.id === 'policarbonato-alveolar'
               ? [
                   '/images/projetos/cobertura-retratil-policarbonato-capa.jpg',
                   '/images/projetos/policarbonato-alveolar-produto.jpg',
-                  '/images/projetos/estrutura-aluminio-projeto-11.JPG',
+                  '/images/projetos/abre-fecha-alveolar-02.jpg',
                 ]
               : [
                   '/images/projetos/cobertura-retratil-policarbonato-capa.jpg',
-                  '/images/projetos/cobertura-abre-fecha-apartamento-24.JPG',
+                  '/images/blog/cobertura-abre-fecha.jpg',
                   '/images/projetos/cobertura-retratil-aluminio.jpg',
                 ];
             

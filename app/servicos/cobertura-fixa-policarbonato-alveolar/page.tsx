@@ -19,7 +19,7 @@ const productSchema = {
   '@type': 'Product',
   name: 'Cobertura Fixa Policarbonato Alveolar',
   description: 'Cobertura fixa em policarbonato alveolar com excelente isolamento térmico e acústico.',
-  image: ['https://coberturapolicarbonato.com.br/images/projetos/policarbonato-alveolar-cobertura-retratil-14.JPG'],
+  image: ['https://coberturapolicarbonato.com.br/images/projetos/fixa-01.jpg'],
   brand: { '@type': 'Brand', name: 'Cobersystem' },
   offers: {
     '@type': 'Offer',
@@ -124,9 +124,9 @@ export default function CoberturaFixaAlveolar() {
           <section className="mb-12 bg-white rounded-lg p-8 shadow-sm">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Fotos de Obras</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <OptimizedImage src="/images/projetos/policarbonato-alveolar-cobertura-retratil-14.JPG" alt="Cobertura fixa policarbonato alveolar" width={400} height={300} className="rounded-lg" />
-              <OptimizedImage src="/images/projetos/policarbonato-alveolar-instalacao-30.JPG" alt="Instalação policarbonato alveolar" width={400} height={300} className="rounded-lg" />
-              <OptimizedImage src="/images/projetos/instalacao-policarbonato-alveolar-13.JPG" alt="Policarbonato alveolar isolamento térmico" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/projetos/fixa-01.jpg" alt="Cobertura fixa policarbonato alveolar" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/projetos/fixa-02.jpg" alt="Instalação policarbonato alveolar" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/projetos/fixa-03.jpg" alt="Policarbonato alveolar isolamento térmico" width={400} height={300} className="rounded-lg" />
             </div>
           </section>
 

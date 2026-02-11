@@ -19,7 +19,7 @@ const productSchema = {
   '@type': 'Product',
   name: 'Cobertura Retrátil Automatizada',
   description: 'Cobertura retrátil com automação inteligente via Alexa, controle remoto e sensor de chuva automático.',
-  image: ['https://coberturapolicarbonato.com.br/images/projetos/cobertura-retratil-area-gourmet-18.JPG'],
+  image: ['https://coberturapolicarbonato.com.br/images/blog/cobertura-retratil-area-gourmet.jpg'],
   brand: { '@type': 'Brand', name: 'Cobersystem' },
   offers: {
     '@type': 'Offer',
@@ -128,9 +128,9 @@ export default function CoberturaRetratilAutomatizada() {
           <section className="mb-12 bg-white rounded-lg p-8 shadow-sm">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Fotos de Obras</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <OptimizedImage src="/images/projetos/cobertura-retratil-area-gourmet-18.JPG" alt="Cobertura retrátil automatizada área gourmet" width={400} height={300} className="rounded-lg" />
-              <OptimizedImage src="/images/projetos/cobertura-abre-fecha-apartamento-24.JPG" alt="Automação cobertura apartamento" width={400} height={300} className="rounded-lg" />
-              <OptimizedImage src="/images/projetos/cobertura-retratil-churrasqueira-26.JPG" alt="Cobertura automatizada churrasqueira" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/blog/cobertura-retratil-area-gourmet.jpg" alt="Cobertura retrátil automatizada área gourmet" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/blog/cobertura-abre-fecha.jpg" alt="Automação cobertura apartamento" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/blog/churrasqueira.jpg" alt="Cobertura automatizada churrasqueira" width={400} height={300} className="rounded-lg" />
             </div>
           </section>
 

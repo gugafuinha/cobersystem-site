@@ -64,7 +64,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-4">
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <OptimizedImage
-                src="/images/projetos/area-gourmet-varanda-23.JPG"
+                src="/images/blog/cobertura-abre-fecha.jpg"
                 alt="Cobertura Retrátil em Área Gourmet e Varanda"
                 width={1200}
                 height={800}
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <OptimizedImage
-                src="/images/projetos/cobertura-abre-fecha-apartamento-24.JPG"
+                src="/images/blog/cobertura-abre-fecha.jpg"
                 alt="Cobertura Retrátil que Abre e Fecha em Apartamento"
                 width={1200}
                 height={800}
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <OptimizedImage
-                src="/images/projetos/estrutura-aluminio-projeto-11.JPG"
+                src="/images/projetos/abre-fecha-alveolar-02.jpg"
                 alt="Estrutura em Alumínio para Projeto Personalizado"
                 width={1200}
                 height={800}
@@ -231,7 +231,7 @@ export default function Home() {
               <div className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition">
                 <div className="relative h-48">
                   <OptimizedImage
-                    src="/images/projetos/cobertura-retratil-area-gourmet-18.JPG"
+                    src="/images/blog/cobertura-retratil-area-gourmet.jpg"
                     alt="Automação Inteligente para Cobertura Retrátil - Controle via Alexa, Sensor de Chuva Automático e Controle Remoto"
                     title="Automação Inteligente Cobertura Retrátil - Alexa e Sensor de Chuva - Cobersystem"
                     width={1200}

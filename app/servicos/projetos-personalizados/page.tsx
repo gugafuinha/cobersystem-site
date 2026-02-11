@@ -18,7 +18,7 @@ const productSchema = {
   '@type': 'Product',
   name: 'Projetos Personalizados de Cobertura',
   description: 'Projetos personalizados de cobertura com consultoria de engenharia e soluções sob medida.',
-  image: ['https://coberturapolicarbonato.com.br/images/projetos/cobertura-retratil-area-gourmet-18.JPG'],
+  image: ['https://coberturapolicarbonato.com.br/images/blog/cobertura-retratil-area-gourmet.jpg'],
   brand: { '@type': 'Brand', name: 'Cobersystem' },
   offers: {
     '@type': 'Offer',

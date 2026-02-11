@@ -18,7 +18,7 @@ const productSchema = {
   '@type': 'Product',
   name: 'Cobertura Termoacústica',
   description: 'Cobertura termoacústica em policarbonato alveolar com excelente isolamento térmico e acústico.',
-  image: ['https://coberturapolicarbonato.com.br/images/projetos/policarbonato-alveolar-cobertura-retratil-14.JPG'],
+  image: ['https://coberturapolicarbonato.com.br/images/projetos/fixa-01.jpg'],
   brand: { '@type': 'Brand', name: 'Cobersystem' },
   offers: {
     '@type': 'Offer',

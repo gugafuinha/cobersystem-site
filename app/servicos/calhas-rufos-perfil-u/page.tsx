@@ -18,7 +18,7 @@ const productSchema = {
   '@type': 'Product',
   name: 'Calhas, Rufos e Perfil U',
   description: 'Calhas, rufos e perfil U em alumínio para coberturas, com pintura eletrostática personalizada.',
-  image: ['https://coberturapolicarbonato.com.br/images/projetos/estrutura-aluminio-policarbonato-compacto-34.JPG'],
+  image: ['https://coberturapolicarbonato.com.br/images/projetos/abre-fecha-alveolar-01.jpg'],
   brand: { '@type': 'Brand', name: 'Cobersystem' },
   offers: {
     '@type': 'Offer',

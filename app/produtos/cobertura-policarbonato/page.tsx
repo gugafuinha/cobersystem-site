@@ -77,13 +77,13 @@ export default function CoberturaFixa() {
             const imagens = produto.id === 'fixa-compacto' 
               ? [
                   '/images/projetos/cobertura-fixa-policarbonato-capa.jpg',
-                  '/images/projetos/policarbonato-compacto-varanda-3.JPG',
-                  '/images/projetos/estrutura-aluminio-policarbonato-compacto-34.JPG',
+                  '/images/blog/cobertura-policarbonato-tipos.jpg',
+                  '/images/projetos/abre-fecha-alveolar-01.jpg',
                 ]
               : [
                   '/images/projetos/cobertura-fixa-policarbonato-capa.jpg',
-                  '/images/projetos/policarbonato-alveolar-instalacao-30.JPG',
-                  '/images/projetos/estrutura-aluminio-projeto-11.JPG',
+                  '/images/projetos/fixa-02.jpg',
+                  '/images/projetos/abre-fecha-alveolar-02.jpg',
                 ];
             
             return (

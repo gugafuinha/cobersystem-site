@@ -19,7 +19,7 @@ const productSchema = {
   '@type': 'Product',
   name: 'Cobertura Fixa Policarbonato Compacto',
   description: 'Cobertura fixa em policarbonato compacto 2mm com transparência total ou cores personalizadas.',
-  image: ['https://coberturapolicarbonato.com.br/images/projetos/policarbonato-compacto-cobertura-retratil-8.JPG'],
+  image: ['https://coberturapolicarbonato.com.br/images/blog/cobertura-retratil-area-gourmet.jpg'],
   brand: { '@type': 'Brand', name: 'Cobersystem' },
   offers: {
     '@type': 'Offer',
@@ -106,9 +106,9 @@ export default function CoberturaFixaCompacto() {
           <section className="mb-12 bg-white rounded-lg p-8 shadow-sm">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Fotos de Obras</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <OptimizedImage src="/images/projetos/policarbonato-compacto-cobertura-retratil-8.JPG" alt="Cobertura fixa policarbonato compacto transparente" width={400} height={300} className="rounded-lg" />
-              <OptimizedImage src="/images/projetos/policarbonato-compacto-varanda-3.JPG" alt="Policarbonato compacto varanda" width={400} height={300} className="rounded-lg" />
-              <OptimizedImage src="/images/projetos/estrutura-aluminio-policarbonato-compacto-34.JPG" alt="Estrutura alumínio policarbonato compacto" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/blog/cobertura-retratil-area-gourmet.jpg" alt="Cobertura fixa policarbonato compacto transparente" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/blog/cobertura-policarbonato-tipos.jpg" alt="Policarbonato compacto varanda" width={400} height={300} className="rounded-lg" />
+              <OptimizedImage src="/images/projetos/abre-fecha-alveolar-01.jpg" alt="Estrutura alumínio policarbonato compacto" width={400} height={300} className="rounded-lg" />
             </div>
           </section>
 
