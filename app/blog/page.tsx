@@ -17,7 +17,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Guia',
     palavrasChave: ['cobertura retrátil', 'policarbonato', 'guia completo'],
-    imagem: '/images/projetos/cobertura-retratil-area-gourmet-18.JPG',
+    imagem: '/images/blog/cobertura-retratil-area-gourmet.jpg',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Informações',
     palavrasChave: ['cobertura abre e fecha', 'ventilação', 'controle clima'],
-    imagem: '/images/projetos/area-gourmet-varanda-23.JPG',
+    imagem: '/images/blog/cobertura-abre-fecha.jpg',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Informações',
     palavrasChave: ['cobertura policarbonato', 'preço', 'tipos', 'instalação'],
-    imagem: '/images/projetos/policarbonato-alveolar-produto.jpg',
+    imagem: '/images/blog/cobertura-policarbonato-tipos.jpg',
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Aplicações',
     palavrasChave: ['cobertura churrasqueira', 'área gourmet', 'proteção'],
-    imagem: '/images/projetos/churrasqueira-pergolado-10.JPG',
+    imagem: '/images/blog/churrasqueira.jpg',
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Tecnologia',
     palavrasChave: ['automação', 'Alexa', 'sensor chuva', 'casa inteligente'],
-    imagem: '/images/blog/automacao-alexa-celular.jpg',
+    imagem: '/images/blog/automacao-alexa.jpg',
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ const artigos = [
     data: '2024-11-14',
     categoria: 'Comparação',
     palavrasChave: ['pergolado', 'cobertura retrátil', 'comparação'],
-    imagem: '/images/blog/pergolado-abre-fecha.jpg',
+    imagem: '/images/blog/pergolado-vs-cobertura.jpg',
   },
 ];
 
