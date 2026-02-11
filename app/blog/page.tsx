@@ -7,14 +7,14 @@ export const metadata: Metadata = {
   keywords: "blog cobertura retrátil, dicas cobertura policarbonato, automação residencial, sensor chuva, área gourmet, pergolado",
 };
 
-// Artigos do blog - você pode expandir isso depois
+// Artigos do blog - datas atualizadas para 2026
 const artigos = [
   {
     id: 1,
     slug: 'cobertura-retratil-guia-completo',
-    titulo: 'Cobertura Retrátil: Guia Completo 2024',
+    titulo: 'Cobertura Retrátil: Guia Completo 2026',
     descricao: 'Tudo que você precisa saber sobre cobertura retrátil em policarbonato. Vantagens, funcionamento e como escolher a melhor opção.',
-    data: '2024-11-14',
+    data: '2026-01-05',
     categoria: 'Guia',
     palavrasChave: ['cobertura retrátil', 'policarbonato', 'guia completo'],
     imagem: '/images/blog/cobertura-retratil-area-gourmet.jpg',
@@ -24,7 +24,7 @@ const artigos = [
     slug: 'cobertura-abre-fecha-vantagens',
     titulo: 'Cobertura Abre e Fecha: Vantagens e Como Funciona',
     descricao: 'Descubra as principais vantagens do sistema de cobertura abre e fecha. Controle total do clima sem perder ventilação.',
-    data: '2024-11-14',
+    data: '2026-01-12',
     categoria: 'Informações',
     palavrasChave: ['cobertura abre e fecha', 'ventilação', 'controle clima'],
     imagem: '/images/blog/cobertura-abre-fecha.jpg',
@@ -34,7 +34,7 @@ const artigos = [
     slug: 'cobertura-policarbonato-preco-tipos',
     titulo: 'Cobertura em Policarbonato: Preço, Tipos e Instalação',
     descricao: 'Conheça os tipos de policarbonato, faixa de preços e processo de instalação. Tudo para tomar a melhor decisão.',
-    data: '2024-11-14',
+    data: '2026-01-19',
     categoria: 'Informações',
     palavrasChave: ['cobertura policarbonato', 'preço', 'tipos', 'instalação'],
     imagem: '/images/blog/cobertura-policarbonato-tipos.jpg',
@@ -44,7 +44,7 @@ const artigos = [
     slug: 'cobertura-retratil-churrasqueira',
     titulo: 'Cobertura Retrátil para Churrasqueira: Vale a Pena?',
     descricao: 'Descubra por que a cobertura retrátil é a melhor opção para sua área de churrasqueira. Proteção e ventilação.',
-    data: '2024-11-14',
+    data: '2026-01-26',
     categoria: 'Aplicações',
     palavrasChave: ['cobertura churrasqueira', 'área gourmet', 'proteção'],
     imagem: '/images/blog/churrasqueira.jpg',
@@ -54,7 +54,7 @@ const artigos = [
     slug: 'automacao-alexa-sensor-chuva',
     titulo: 'Automação Residencial: Cobertura com Alexa e Sensor de Chuva',
     descricao: 'Como funciona a automação inteligente. Controle via Alexa e fechamento automático com sensor de chuva.',
-    data: '2024-11-14',
+    data: '2026-02-02',
     categoria: 'Tecnologia',
     palavrasChave: ['automação', 'Alexa', 'sensor chuva', 'casa inteligente'],
     imagem: '/images/blog/automacao-alexa.jpg',
@@ -64,7 +64,7 @@ const artigos = [
     slug: 'pergolado-vs-cobertura-retratil',
     titulo: 'Pergolado vs Cobertura Retrátil: Qual Escolher?',
     descricao: 'Comparação completa entre pergolado tradicional e cobertura retrátil. Vantagens e desvantagens de cada opção.',
-    data: '2024-11-14',
+    data: '2026-02-09',
     categoria: 'Comparação',
     palavrasChave: ['pergolado', 'cobertura retrátil', 'comparação'],
     imagem: '/images/blog/pergolado-vs-cobertura.jpg',
