@@ -30,10 +30,10 @@ const projetos3D = [
       'Acabamento premium',
     ],
     imagens: [
-      '/images/projetos-3d/projeto-01-vista-1.jpg',
-      '/images/projetos-3d/projeto-01-vista-2.jpg',
-      '/images/projetos-3d/projeto-01-vista-3.jpg',
-      '/images/projetos-3d/projeto-01-detalhe.jpg',
+      '/images/Cobertura Abre e Fecha Alveolar/IMG_3659.jpg',
+      '/images/Cobertura Abre e Fecha Alveolar/IMG_4760.PNG.jpg',
+      '/images/Cobertura Abre e Fecha Alveolar/IMG_6398.jpg',
+      '/images/Cobertura Abre e Fecha Alveolar/IMG_7879.jpg',
     ],
   },
   {
@@ -52,10 +52,10 @@ const projetos3D = [
       'Calhas embutidas',
     ],
     imagens: [
-      '/images/projetos-3d/projeto-02-vista-1.jpg',
-      '/images/projetos-3d/projeto-02-vista-2.jpg',
-      '/images/projetos-3d/projeto-02-vista-3.jpg',
-      '/images/projetos-3d/projeto-02-detalhe.jpg',
+      '/images/Fixa Alveolar/Fixa Alveolar.jpg',
+      '/images/Fixa Alveolar/Fixa Alveolar1.jpg',
+      '/images/Fixa Alveolar/IMG_0397.jpg',
+      '/images/Fixa Alveolar/IMG_0398.jpg',
     ],
   },
   {
@@ -74,10 +74,10 @@ const projetos3D = [
       'Design minimalista',
     ],
     imagens: [
-      '/images/projetos-3d/projeto-03-vista-1.jpg',
-      '/images/projetos-3d/projeto-03-vista-2.jpg',
-      '/images/projetos-3d/projeto-03-vista-3.jpg',
-      '/images/projetos-3d/projeto-03-detalhe.jpg',
+      '/images/Cobertura Abre e Fecha com telhas intercaladas/IMG_3422.jpg',
+      '/images/Cobertura Abre e Fecha com telhas intercaladas/IMG_4741.PNG.jpg',
+      '/images/Cobertura Abre e Fecha com telhas intercaladas/IMG_6399.jpg',
+      '/images/Cobertura Abre e Fecha com telhas intercaladas/IMG_7880.jpg',
     ],
   },
   {
@@ -96,10 +96,10 @@ const projetos3D = [
       'Economia de energia',
     ],
     imagens: [
-      '/images/projetos-3d/projeto-04-vista-1.jpg',
-      '/images/projetos-3d/projeto-04-vista-2.jpg',
-      '/images/projetos-3d/projeto-04-vista-3.jpg',
-      '/images/projetos-3d/projeto-04-detalhe.jpg',
+      '/images/Cobertura Termoacustica ou Cobertura Sanduíche/25c8b0a1-bfcf-4d5f-93fd-7946b9b925c2.jpg',
+      '/images/Cobertura Termoacustica ou Cobertura Sanduíche/4926d2a1-7cc6-4848-b3b9-8f92ba1ee4ed.jpg',
+      '/images/Cobertura Termoacustica ou Cobertura Sanduíche/5308ff48-2ce2-4308-9f3c-d2bc6566b8cf.jpg',
+      '/images/Cobertura Termoacustica ou Cobertura Sanduíche/840d8ed0-052b-4289-9a89-cc25a369fcfb.jpg',
     ],
   },
   {
@@ -118,10 +118,10 @@ const projetos3D = [
       'Durabilidade superior',
     ],
     imagens: [
-      '/images/projetos-3d/projeto-05-vista-1.jpg',
-      '/images/projetos-3d/projeto-05-vista-2.jpg',
-      '/images/projetos-3d/projeto-05-vista-3.jpg',
-      '/images/projetos-3d/projeto-05-detalhe.jpg',
+      '/images/Veneziana em Policarbonato/IMG_3421.jpg',
+      '/images/Veneziana em Policarbonato/IMG_4740.PNG.jpg',
+      '/images/Veneziana em Policarbonato/IMG_4742.PNG.jpg',
+      '/images/Veneziana em Policarbonato/IMG_4863.jpg',
     ],
   },
   {
@@ -140,10 +140,10 @@ const projetos3D = [
       'Integração com paisagismo',
     ],
     imagens: [
-      '/images/projetos-3d/projeto-06-vista-1.jpg',
-      '/images/projetos-3d/projeto-06-vista-2.jpg',
-      '/images/projetos-3d/projeto-06-vista-3.jpg',
-      '/images/projetos-3d/projeto-06-detalhe.jpg',
+      '/images/Cobertura Abre e Fecha Telhas Telhas em Alumínio/IMG_3423.jpg',
+      '/images/Cobertura Abre e Fecha Telhas Telhas em Alumínio/IMG_4746.PNG.jpg',
+      '/images/Cobertura Abre e Fecha Telhas Telhas em Alumínio/IMG_6400.jpg',
+      '/images/Cobertura Abre e Fecha Telhas Telhas em Alumínio/IMG_7881.jpg',
     ],
   },
 ];
