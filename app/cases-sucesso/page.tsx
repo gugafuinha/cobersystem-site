@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 };
 
-// Você vai substituir com os dados reais das fotos do Drive
+// Cases reais com fotos dos projetos
 const casesDeSucesso = [
   {
     id: 1,
@@ -246,6 +246,51 @@ export default function CasesDeSucesso() {
               </div>
             </article>
           ))}
+        </section>
+
+        {/* Galeria Completa de Projetos */}
+        <section className="mb-16">
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">
+            Galeria de Projetos Realizados
+          </h2>
+          <p className="text-center text-gray-600 mb-12 text-lg">
+            Veja mais projetos de cobertura em policarbonato instalados em São Paulo e região
+          </p>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {[1, 4, 5, 7, 10, 12, 15, 17, 18, 19, 23, 27, 28, 29, 31, 32, 34, 37, 38, 39, 40, 41, 42, 43, 45, 47, 48].map((num) => (
+              <div key={num} className="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                <OptimizedImage
+                  src={`/images/cases-antes-depois/${num}.jpg`}
+                  alt={`Projeto de Cobertura em Policarbonato ${num} - Cobersystem`}
+                  width={600}
+                  height={400}
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="absolute bottom-4 left-4 text-white">
+                    <p className="font-semibold">Projeto #{num}</p>
+                    <p className="text-sm">Cobertura em Policarbonato</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+            <div className="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
+              <OptimizedImage
+                src="/images/cases-antes-depois/33img_6499.jpg"
+                alt="Projeto de Cobertura em Policarbonato - Cobersystem"
+                width={600}
+                height={400}
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <p className="font-semibold">Projeto Especial</p>
+                  <p className="text-sm">Cobertura em Policarbonato</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* CTA */}
