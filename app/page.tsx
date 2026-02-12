@@ -79,7 +79,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <OptimizedImage
-                src="/images/projetos/cobertura-retratil-aluminio.jpg"
+                src="/images/projetos/abre-fecha-alveolar-01.jpg"
                 alt="Cobertura Retrátil em Alumínio"
                 width={1200}
                 height={800}
@@ -175,7 +175,7 @@ export default function Home() {
               <div className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition">
                 <div className="relative h-48">
                   <OptimizedImage
-                    src="/images/projetos/policarbonato-compacto-2mm-produto.jpg"
+                    src="/images/projetos/abre-fecha-alveolar-03.jpg"
                     alt="Cobertura Retrátil em Policarbonato Compacto 2mm - Transparente e Colorido para Máxima Luminosidade"
                     title="Cobertura Retrátil Policarbonato Compacto 2mm - Cobersystem"
                     width={1200}
@@ -203,7 +203,7 @@ export default function Home() {
               <div className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition">
                 <div className="relative h-48">
                   <OptimizedImage
-                    src="/images/projetos/policarbonato-alveolar-produto.jpg"
+                    src="/images/projetos/fixa-01.jpg"
                     alt="Cobertura em Policarbonato Fixa - Alveolar e Compacto para Garagens e Áreas"
                     title="Cobertura Policarbonato Fixa - Alta Resistência - Cobersystem"
                     width={1200}
